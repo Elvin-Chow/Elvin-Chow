@@ -1,0 +1,69 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">H. Zhou GitHub profile banner</title>
+  <desc id="desc">A dark quantitative finance themed banner with portfolio curves, code panels, and the text Quant Systems and Portfolio Intelligence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.48" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="150" y1="340" x2="1130" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="0.52" stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#f78166"/>
+    </linearGradient>
+    <filter id="softGlow" x="-80" y="-80" width="1440" height="580" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.51 0 0 0 0 0.97 0 0 0 0.24 0"/>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#30363d" stroke-width="1" opacity="0.32"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)" opacity="0.6"/>
+  <path d="M58 331C152 263 210 311 280 239C352 165 413 179 488 215C562 251 635 281 710 205C786 128 859 148 920 174C1016 214 1075 153 1222 75" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M58 331C152 263 210 311 280 239C352 165 413 179 488 215C562 251 635 281 710 205C786 128 859 148 920 174C1016 214 1075 153 1222 75" stroke="#dbeafe" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+
+  <g opacity="0.24">
+    <rect x="82" y="74" width="144" height="84" rx="14" stroke="#8b949e"/>
+    <path d="M106 103H178M106 130H200" stroke="#8b949e" stroke-width="4" stroke-linecap="round"/>
+    <rect x="1010" y="246" width="178" height="88" rx="14" stroke="#8b949e"/>
+    <path d="M1039 278H1112M1039 305H1154" stroke="#8b949e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(94 232)">
+    <rect width="158" height="58" rx="16" fill="#161b22" stroke="#30363d"/>
+    <circle cx="31" cy="29" r="9" fill="#3fb950"/>
+    <text x="52" y="35" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700">Risk Engine</text>
+  </g>
+  <g transform="translate(1018 126)">
+    <rect width="170" height="58" rx="16" fill="#161b22" stroke="#30363d"/>
+    <circle cx="31" cy="29" r="9" fill="#2f81f7"/>
+    <text x="52" y="35" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700">Alpha Stack</text>
+  </g>
+
+  <g transform="translate(112 344)" opacity="0.82">
+    <text fill="#8b949e" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">PYTHON</text>
+    <text x="91" fill="#8b949e" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">TYPESCRIPT</text>
+    <text x="212" fill="#8b949e" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">FASTAPI</text>
+    <text x="304" fill="#8b949e" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">REACT</text>
+  </g>
+
+  <g transform="translate(354 104)">
+    <text fill="#f0f6fc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="800" letter-spacing="0">H. Zhou</text>
+    <text y="70" fill="#8b949e" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="0">Quant Systems and Portfolio Intelligence</text>
+    <text y="116" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" letter-spacing="0">Risk analytics, alpha attribution, allocation research, and investment tooling.</text>
+  </g>
+
+  <g transform="translate(760 272)">
+    <rect width="92" height="28" rx="14" fill="#0d419d" opacity="0.52"/>
+    <text x="18" y="19" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800">FundX</text>
+    <rect x="106" width="132" height="28" rx="14" fill="#1f6f43" opacity="0.55"/>
+    <text x="123" y="19" fill="#dcfce7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800">DeepFirm</text>
+    <rect x="252" width="158" height="28" rx="14" fill="#7d4e1d" opacity="0.55"/>
+    <text x="270" y="19" fill="#ffedd5" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800">Bayesian Allocation</text>
+  </g>
+</svg>
