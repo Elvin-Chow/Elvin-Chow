@@ -2,15 +2,21 @@
   <img src="./assets/profile-banner.png" alt="Mr.H.Zhou cyberpunk Hong Kong GitHub profile banner" width="100%" />
 </p>
 
+<h1 align="center">Mr.H.Zhou</h1>
+
 <p align="center">
+  Full-stack developer exploring data analysis, financial analysis, and product systems with a travel photographer's eye.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Elvin-Chow?tab=repositories">
+    <img src="https://img.shields.io/badge/Profile-Mr.H.Zhou-00f5ff?style=for-the-badge&logo=github&logoColor=0d1117" alt="Mr.H.Zhou profile badge" />
+  </a>
   <a href="https://github.com/Elvin-Chow/DeepFirm-Quant">
-    <img src="https://img.shields.io/badge/DeepFirm--Quant-risk%20analytics-00f5ff?style=for-the-badge&logo=python&logoColor=0d1117" alt="DeepFirm Quant badge" />
+    <img src="https://img.shields.io/badge/Focus-risk%20analytics-ff4fd8?style=for-the-badge&logo=python&logoColor=white" alt="Risk analytics badge" />
   </a>
   <a href="https://github.com/Elvin-Chow/FundX">
-    <img src="https://img.shields.io/badge/FundX-portfolio%20workspace-ff4fd8?style=for-the-badge&logo=typescript&logoColor=white" alt="FundX badge" />
-  </a>
-  <a href="https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository">
-    <img src="https://img.shields.io/badge/Paper%20Artifact-reproducible%20research-b8ff5c?style=for-the-badge&logo=github&logoColor=0d1117" alt="Paper artifact badge" />
+    <img src="https://img.shields.io/badge/Product-portfolio%20tools-b8ff5c?style=for-the-badge&logo=typescript&logoColor=0d1117" alt="Portfolio tools badge" />
   </a>
 </p>
 
@@ -18,48 +24,86 @@
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2600&pause=900&color=00F5FF&center=true&vCenter=true&width=820&lines=Frontend+%2B+Backend+Development;Data+Analysis+for+Real+Workflows;Financial+Analysis+and+Portfolio+Tools;Travel+%2B+Photography+%2B+Code" alt="Typing animation" />
 </p>
 
+```text
+travel lens -> product context -> data contract -> financial model -> usable interface
+```
+
 ## About
 
-I am Mr.H.Zhou, a full-stack developer exploring data analysis and financial analysis. I like traveling with a camera because it trains the same instincts I use in software: observe the scene, find the signal, compose the frame, and build something clear enough to be used. Right now I am focused on investment research tools that connect clean interfaces, reliable data workflows, and auditable financial models.
+I am Mr.H.Zhou. I like traveling and photography because both force me to notice structure, light, timing, and small details that are easy to miss. In code, I am interested in the same kind of clarity: frontend and backend systems that feel usable, data workflows that can be trusted, and financial analysis tools that make assumptions visible.
 
-## Signal Map
+## Build Direction
 
-| Track | What I am building toward |
+| Signal | What I care about |
 | --- | --- |
-| Frontend + backend | Product interfaces backed by clear API contracts, local-first workflows, and deployment-ready systems |
-| Data analysis | Reproducible calculations, transparent assumptions, data provenance, and decision-oriented reports |
-| Financial analysis | Portfolio systems, risk analytics, alpha attribution, and allocation research |
-| Travel + photography | Visual taste, patience, and attention to detail carried from city streets into product work |
+| Frontend + backend | Interfaces, API contracts, local-first workflows, and deployment-ready product systems |
+| Data analysis | Reproducible calculations, clean data boundaries, provenance, and decision-oriented reports |
+| Financial analysis | Portfolio workflows, risk analytics, factor attribution, and allocation research |
+| Travel + photography | Visual taste, patience, and attention to real-world context |
 
-## Real Projects
+## Project Console
 
-| Project | Verified project shape | Stack signals |
-| --- | --- | --- |
-| [DeepFirm Quant](https://github.com/Elvin-Chow/DeepFirm-Quant) | Machine-learning quantitative risk-control and Bayesian decision system for multi-market equity portfolios. Includes market-data ingestion, exchange-calendar alignment, tail-risk analytics, ML risk forecasts, crisis warnings, factor attribution, OOS validation, and Black-Litterman allocation. | Python, TypeScript, FastAPI, Next.js |
-| [FundX](https://github.com/Elvin-Chow/FundX) | US-market portfolio management workspace for fund discovery, portfolio construction, DCA planning, custom fund modeling, asset comparison, watchlists, insights, and reports. | TypeScript, React, Vite, FastAPI |
-| [DeepFirm Quant Paper Experiments](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository) | Manuscript-specific reproducibility package for DeepFirm Quant, with frozen crisis-warning artifacts, experiment configs, result tables, figures, paper materials, and guardrail tests. | Python, TypeScript, TeX |
+<table>
+  <tr>
+    <td width="50%">
+      <h3>DeepFirm Quant</h3>
+      <p>Machine-learning quantitative risk-control and Bayesian decision system for multi-market equity portfolios.</p>
+      <p>Verified scope: market-data ingestion, exchange-calendar alignment, tail-risk analytics, ML risk forecasts, crisis warnings, factor attribution, out-of-sample validation, and Black-Litterman allocation.</p>
+      <p>
+        <a href="https://github.com/Elvin-Chow/DeepFirm-Quant">Repository</a>
+        ·
+        <a href="https://deep-firm-quant.vercel.app/">Live Demo</a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=00f5ff" alt="DeepFirm Quant top language" />
+        <img src="https://img.shields.io/github/stars/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=ff4fd8" alt="DeepFirm Quant stars" />
+        <img src="https://img.shields.io/github/license/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=b8ff5c" alt="DeepFirm Quant license" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>FundX</h3>
+      <p>US-market portfolio management workspace for discovery, construction, comparison, DCA planning, watchlists, insights, and reports.</p>
+      <p>Verified scope: React/Vite frontend, FastAPI backend, portfolio records, asset search, custom fund modeling, and investment reporting workflows.</p>
+      <p>
+        <a href="https://github.com/Elvin-Chow/FundX">Repository</a>
+        ·
+        <a href="https://fundx-opal.vercel.app">Live Demo</a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Elvin-Chow/FundX?style=flat-square&color=00f5ff" alt="FundX top language" />
+        <img src="https://img.shields.io/github/stars/Elvin-Chow/FundX?style=flat-square&color=ff4fd8" alt="FundX stars" />
+        <img src="https://img.shields.io/github/license/Elvin-Chow/FundX?style=flat-square&color=b8ff5c" alt="FundX license" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <h3>DeepFirm Quant Paper Experiments</h3>
+      <p>Manuscript-specific reproducibility package for DeepFirm Quant, separated from the main product repo so paper experiments can be inspected and rerun.</p>
+      <p>Verified scope: frozen crisis-warning artifacts, experiment configs, result tables, figures, paper materials, guardrail tests, and result hash manifest.</p>
+      <p>
+        <a href="https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository">Repository</a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=00f5ff" alt="Paper experiments top language" />
+        <img src="https://img.shields.io/github/stars/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=ff4fd8" alt="Paper experiments stars" />
+        <img src="https://img.shields.io/github/license/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=b8ff5c" alt="Paper experiments license" />
+      </p>
+    </td>
+  </tr>
+</table>
 
-<details>
-  <summary><strong>Live GitHub Signals</strong></summary>
-  <br />
-
-| Repo | Signals |
-| --- | --- |
-| DeepFirm Quant | ![Stars](https://img.shields.io/github/stars/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=00f5ff) ![Forks](https://img.shields.io/github/forks/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=ff4fd8) ![Issues](https://img.shields.io/github/issues/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=b8ff5c) ![License](https://img.shields.io/github/license/Elvin-Chow/DeepFirm-Quant?style=flat-square&color=8b5cf6) |
-| FundX | ![Stars](https://img.shields.io/github/stars/Elvin-Chow/FundX?style=flat-square&color=00f5ff) ![Forks](https://img.shields.io/github/forks/Elvin-Chow/FundX?style=flat-square&color=ff4fd8) ![Issues](https://img.shields.io/github/issues/Elvin-Chow/FundX?style=flat-square&color=b8ff5c) ![License](https://img.shields.io/github/license/Elvin-Chow/FundX?style=flat-square&color=8b5cf6) |
-| Paper Experiments | ![Stars](https://img.shields.io/github/stars/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=00f5ff) ![Forks](https://img.shields.io/github/forks/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=ff4fd8) ![Issues](https://img.shields.io/github/issues/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=b8ff5c) ![License](https://img.shields.io/github/license/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository?style=flat-square&color=8b5cf6) |
-
-</details>
-
-## Tooling
+## Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,react,nextjs,vite,fastapi,tailwind,docker,git,github,vscode&perline=11" alt="Tooling icons" />
 </p>
 
+## Telemetry
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Elvin-Chow&show_icons=true&hide_border=true&rank_icon=github&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&icon_color=ff4fd8" alt="GitHub stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elvin-Chow&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3" alt="Top languages" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Elvin-Chow&show_icons=true&hide_border=true&rank_icon=github&custom_title=Mr.H.Zhou%27s%20GitHub%20Signals&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&icon_color=ff4fd8" alt="Mr.H.Zhou GitHub stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elvin-Chow&layout=compact&hide_border=true&custom_title=Language%20Signal&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3" alt="Language signal" height="170" />
 </p>
 
 ## Working Style
@@ -77,6 +121,6 @@ question -> data contract -> calculation engine -> interface -> report
 
 <p align="center">
   <a href="https://github.com/Elvin-Chow">
-    <img src="https://img.shields.io/badge/GitHub-Elvin--Chow-30363d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Mr.H.Zhou-30363d?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
 </p>
