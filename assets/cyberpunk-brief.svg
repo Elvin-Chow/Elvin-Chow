@@ -1,0 +1,56 @@
+<svg width="1280" height="390" viewBox="0 0 1280 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cyberpunk system brief</title>
+  <desc id="desc">A neon system brief describing Mr.H.Zhou's identity core and signal matrix across full-stack development, data analysis, financial analysis, and visual taste.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03040c"/>
+      <stop offset="0.52" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#14061f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="60" y1="40" x2="1220" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00f5ff"/>
+      <stop offset="0.5" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#b8ff5c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111827" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#05070b" stop-opacity="0.98"/>
+    </linearGradient>
+    <filter id="glow" x="-70" y="-70" width="1420" height="540" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 1 0 0 0 0.32 0"/>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#30363d" stroke-width="1" opacity="0.32"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1264" height="374" rx="30" fill="url(#bg)" stroke="url(#edge)" stroke-width="2.5"/>
+  <rect x="8" y="8" width="1264" height="374" rx="30" fill="url(#grid)"/>
+  <path d="M72 82H390L426 118H854L890 82H1208" stroke="#00f5ff" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+
+  <g transform="translate(72 58)">
+    <text fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="21" font-weight="900" letter-spacing="0">SYSTEM BRIEF // IDENTITY CORE</text>
+  </g>
+
+  <g transform="translate(72 132)">
+    <rect width="534" height="186" rx="22" fill="url(#panel)" stroke="#00f5ff" stroke-width="1.5"/>
+    <text x="28" y="42" fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="900" letter-spacing="0">WHO_AM_I</text>
+    <text x="28" y="76" fill="#f0f6fc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="900">Full-stack developer</text>
+    <text x="28" y="108" fill="#f0f6fc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="900">with a travel photographer's eye.</text>
+    <text x="28" y="142" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">Messy assumptions -> inspectable workflows:</text>
+    <text x="28" y="168" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">clean interfaces, durable APIs, reproducible reports.</text>
+  </g>
+
+  <g transform="translate(646 132)">
+    <rect width="562" height="186" rx="22" fill="url(#panel)" stroke="#ff4fd8" stroke-width="1.5"/>
+    <text x="28" y="42" fill="#ff4fd8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="900" letter-spacing="0">SIGNAL_MATRIX</text>
+    <text x="28" y="80" fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="800">FRONTEND_BACKEND</text>
+    <text x="236" y="80" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">interfaces, APIs, product systems</text>
+    <text x="28" y="118" fill="#b8ff5c" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="800">DATA_ANALYSIS</text>
+    <text x="236" y="118" fill="#efffd8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">provenance, clean boundaries, decisions</text>
+    <text x="28" y="156" fill="#f5d90a" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="800">FINANCIAL_ANALYSIS</text>
+    <text x="236" y="156" fill="#fff8cc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17">risk, factors, allocation research</text>
+  </g>
+</svg>

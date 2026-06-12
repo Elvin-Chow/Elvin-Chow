@@ -1,0 +1,87 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mr.H.Zhou cyberpunk profile console</title>
+  <desc id="desc">A dark neon profile console summarizing full-stack development, data analysis, financial analysis, and photography-inspired product taste.</desc>
+  <defs>
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#02030a"/>
+      <stop offset="0.48" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#12061f"/>
+    </linearGradient>
+    <linearGradient id="cyanMagenta" x1="84" y1="70" x2="1196" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00f5ff"/>
+      <stop offset="0.5" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#b8ff5c"/>
+    </linearGradient>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111827" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#05070b" stop-opacity="0.94"/>
+    </linearGradient>
+    <filter id="glow" x="-70" y="-70" width="1420" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.89 0 0 0 0 1 0 0 0 0.38 0"/>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <filter id="pinkGlow" x="-70" y="-70" width="1420" height="660" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 0.2 0 0 0 0 0.85 0 0 0 0.34 0"/>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#1f6feb" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 7H8" stroke="#f0f6fc" stroke-width="1" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1264" height="504" rx="30" fill="url(#terminalBg)" stroke="url(#cyanMagenta)" stroke-width="2.5"/>
+  <rect x="8" y="8" width="1264" height="504" rx="30" fill="url(#grid)"/>
+  <rect x="8" y="8" width="1264" height="504" rx="30" fill="url(#scan)"/>
+
+  <path d="M72 96H378L416 132H828L864 96H1208" stroke="#00f5ff" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M72 424H460L494 388H808L842 424H1208" stroke="#ff4fd8" stroke-width="3" stroke-linecap="round" filter="url(#pinkGlow)"/>
+
+  <g transform="translate(74 58)">
+    <circle cx="0" cy="0" r="6" fill="#ff4fd8"/>
+    <circle cx="22" cy="0" r="6" fill="#00f5ff"/>
+    <circle cx="44" cy="0" r="6" fill="#b8ff5c"/>
+    <text x="72" y="6" fill="#9fb7d8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="0">PROFILE TERMINAL // ONLINE</text>
+  </g>
+
+  <g transform="translate(86 136)">
+    <text fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="24" font-weight="800" letter-spacing="0">MR.H.ZHOU / GITHUB PROFILE</text>
+    <text y="60" fill="#f0f6fc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="0">Full-Stack Data Systems</text>
+    <text y="104" fill="#ff8be7" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="23" font-weight="800" letter-spacing="0">Frontend + Backend // Data Analysis // Financial Analysis</text>
+    <text y="144" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" letter-spacing="0">Travel lens -> product context -> data contract</text>
+    <text y="174" fill="#c9d1d9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" letter-spacing="0">risk model -> usable interface</text>
+  </g>
+
+  <g transform="translate(872 142)">
+    <rect width="306" height="188" rx="22" fill="url(#panelBg)" stroke="#30363d"/>
+    <path d="M30 136C66 92 99 112 130 78C163 41 204 64 230 91C253 114 270 92 282 70" stroke="#b8ff5c" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M30 136C66 92 99 112 130 78C163 41 204 64 230 91C253 114 270 92 282 70" stroke="#f0f6fc" stroke-width="1.4" stroke-linecap="round" opacity="0.62"/>
+    <text x="28" y="44" fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="17" font-weight="800" letter-spacing="0">SIGNAL MIX</text>
+    <text x="28" y="166" fill="#9fb7d8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="0">alpha / risk / UI / reports</text>
+  </g>
+
+  <g transform="translate(86 346)">
+    <rect width="230" height="70" rx="18" fill="#08111f" stroke="#00f5ff" stroke-width="1.5"/>
+    <text x="22" y="29" fill="#00f5ff" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="800" letter-spacing="0">FRONTEND_BACKEND</text>
+    <text x="22" y="53" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">React / Next / FastAPI</text>
+  </g>
+  <g transform="translate(340 346)">
+    <rect width="230" height="70" rx="18" fill="#12091b" stroke="#ff4fd8" stroke-width="1.5"/>
+    <text x="22" y="29" fill="#ff4fd8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="800" letter-spacing="0">RISK_ANALYTICS</text>
+    <text x="22" y="53" fill="#fde7ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">ML / factors / tails</text>
+  </g>
+  <g transform="translate(594 346)">
+    <rect width="230" height="70" rx="18" fill="#101706" stroke="#b8ff5c" stroke-width="1.5"/>
+    <text x="22" y="29" fill="#b8ff5c" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="800" letter-spacing="0">PRODUCT_UI</text>
+    <text x="22" y="53" fill="#efffd8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Calm workflows</text>
+  </g>
+  <g transform="translate(848 346)">
+    <rect width="330" height="70" rx="18" fill="#171009" stroke="#f5d90a" stroke-width="1.5"/>
+    <text x="22" y="29" fill="#f5d90a" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="800" letter-spacing="0">FINANCE_TOOLS</text>
+    <text x="22" y="53" fill="#fff8cc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Portfolio intelligence</text>
+  </g>
+</svg>
