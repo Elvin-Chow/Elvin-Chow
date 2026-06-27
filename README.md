@@ -78,7 +78,7 @@ This section is real Markdown, not a static image. A scheduled GitHub Action ref
 | Project | Language | Stars | Forks | Open items | Last push |
 | --- | --- | ---: | ---: | ---: | --- |
 | [DeepFirm-Quant](https://github.com/Elvin-Chow/DeepFirm-Quant) | Python | 3 | 1 | 2 | 2026-06-12 |
-| [FundX](https://github.com/Elvin-Chow/FundX) | TypeScript | 1 | 0 | 0 | 2026-06-19 |
+| [FundX](https://github.com/Elvin-Chow/FundX) | TypeScript | 1 | 0 | 0 | 2026-06-26 |
 | [DeepFirm-Quant_Paper-Artifact-Repository](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository) | Python | 0 | 0 | 0 | 2026-05-18 |
 <!-- PROFILE-METRICS:END -->
 
