@@ -1,77 +1,60 @@
 <p align="center">
-  <img src="./assets/mc-shader-banner.png" alt="Mr.H.Zhou Minecraft shader style GitHub profile banner" width="100%" />
+  <img src="./assets/mc-shader-banner-v2.png" alt="Minecraft shader style voxel landscape banner for Mr.H.Zhou" width="100%" />
 </p>
 
-<p align="center">
-  <b>Full-stack data systems with a Minecraft shader mood: clear terrain, visible paths, calm light.</b><br>
-  I turn messy finance and research workflows into data contracts, risk engines, and usable product surfaces.
-</p>
+# Mr.H.Zhou / Elvin-Chow
 
-<p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Elvin-Chow&style=flat-square&color=46c8d8" />
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Elvin-Chow?style=flat-square&label=Followers&color=55c477" />
-  <img alt="Profile last commit" src="https://img.shields.io/github/last-commit/Elvin-Chow/Elvin-Chow?style=flat-square&label=Profile%20updated&color=f0c550" />
-</p>
+Full-stack developer building data systems for finance, research workflows, and calm product interfaces.
 
-<p align="center">
-  <a href="https://github.com/Elvin-Chow/DeepFirm-Quant">DeepFirm Quant</a>
-  &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="https://github.com/Elvin-Chow/FundX">FundX Workspace</a>
-  &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository">Paper Artifacts</a>
-</p>
+`frontend + backend` / `data analysis` / `financial analysis` / `risk systems`
 
-<br>
+[DeepFirm Quant](https://github.com/Elvin-Chow/DeepFirm-Quant) · [FundX Workspace](https://github.com/Elvin-Chow/FundX) · [Paper Artifacts](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository)
 
-## Spawn Point
+---
 
-| Build identity | Current coordinates |
-| --- | --- |
-| **Role** | Full-stack developer working across product UI, backend services, data analysis, and financial analysis. |
-| **Taste** | Game-like clarity without noisy decoration: readable panels, calm contrast, and obvious paths through complex systems. |
-| **Loop** | `question -> data contract -> calculation engine -> validation -> interface -> report` |
-| **Goal** | Make research and portfolio work inspectable, repeatable, and useful enough to return to later. |
+### Player Card
 
-## Quest Log
+I like Minecraft shader worlds for the same reason I like good product systems: clear terrain, readable paths, soft contrast, and enough atmosphere to make the hard parts feel approachable.
 
-| Quest | Current build | Output | Portal |
-| --- | --- | --- | --- |
-| **DeepFirm Quant** | Industrial-grade quant risk analysis, alpha attribution, and Bayesian portfolio optimization. | Risk dashboards, validation flows, allocation research. | [Repo](https://github.com/Elvin-Chow/DeepFirm-Quant) / [Live](https://deep-firm-quant.vercel.app) |
-| **FundX Workspace** | US-market portfolio workspace for discovery, planning, watchlists, and reports. | Full-stack app with portfolio records and fund modeling. | [Repo](https://github.com/Elvin-Chow/FundX) / [Live](https://fundx-opal.vercel.app) |
-| **Paper Experiments** | Reproducibility lab for experiment material, configs, tables, figures, and guardrails. | Clean artifacts that can be checked and rerun. | [Repo](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository) |
+My work usually starts with a messy research or portfolio question and ends as something inspectable: a data contract, a calculation engine, validation checks, an interface, and a report.
 
-## Crafting Stack
+### Active Quests
 
-| Layer | Tools | What I use it for |
+| Quest | Build | Links |
 | --- | --- | --- |
-| **Product UI** | React, TypeScript, Vite | Interfaces that make dense data easier to scan, compare, and revisit. |
-| **Backend** | Python, FastAPI, SQL | APIs, service boundaries, data contracts, and calculation engines. |
-| **Analysis** | pandas, modeling pipelines, reports | Risk, factors, attribution, validation, and reproducible evidence. |
-| **Delivery** | GitHub, Vercel, docs | Small deployable systems with visible assumptions and clean handoff notes. |
+| **DeepFirm Quant** | ML risk-control, alpha attribution, tail-risk views, and Bayesian portfolio decisions. | [Repo](https://github.com/Elvin-Chow/DeepFirm-Quant) / [Live](https://deep-firm-quant.vercel.app) |
+| **FundX Workspace** | US-market portfolio workspace for discovery, planning, watchlists, and reports. | [Repo](https://github.com/Elvin-Chow/FundX) / [Live](https://fundx-opal.vercel.app) |
+| **Paper Experiments** | Reproducibility lab for configs, figures, tables, warnings, and rerunnable checks. | [Repo](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository) |
 
-## Main Questline
+### Crafting Table
+
+| Layer | Kit |
+| --- | --- |
+| Product UI | React, TypeScript, Vite |
+| Backend | Python, FastAPI, SQL |
+| Analysis | pandas, modeling pipelines, report automation |
+| Delivery | GitHub, Vercel, docs, reproducible artifacts |
+
+### Main Route
 
 ```mermaid
 flowchart LR
     Q["Question"] --> D["Data contract"]
-    D --> C["Calculation engine"]
-    C --> V["Validation"]
-    V --> I["Interface"]
-    I --> R["Report"]
-    V --> R
+    D --> E["Engine"]
+    E --> V["Validation"]
+    V --> U["Interface"]
+    U --> R["Report"]
 ```
 
-## Working Mode
+### Operating Style
 
-| Bias | How it shows up |
-| --- | --- |
-| **Practical systems over one-off notebooks** | Research becomes a product surface, not just a result. |
-| **Visible assumptions over black boxes** | Inputs, checks, and failure modes stay close to the output. |
-| **Calm interfaces over loud dashboards** | The UI should help people decide, compare, and come back later. |
+- Build practical research tools, not one-off notebooks.
+- Keep assumptions visible near the output.
+- Make dense data calm enough to scan, compare, and return to later.
 
-## Live Project Signals
+### Live Signals
 
-This section is refreshed from the GitHub API by a scheduled workflow, so the numbers below stay real instead of decorative.
+These project signals are refreshed from the GitHub API by a scheduled workflow.
 
 <!-- PROFILE-METRICS:START -->
 | Project | Language | Stars | Forks | Open items | Last push |
@@ -81,13 +64,11 @@ This section is refreshed from the GitHub API by a scheduled workflow, so the nu
 | [DeepFirm-Quant_Paper-Artifact-Repository](https://github.com/Elvin-Chow/DeepFirm-Quant_Paper-Artifact-Repository) | Python | 0 | 0 | 0 | 2026-05-18 |
 <!-- PROFILE-METRICS:END -->
 
-## GitHub Pulse
-
 <p align="center">
-  <img height="165" alt="Elvin-Chow GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Elvin-Chow&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
-  <img height="165" alt="Elvin-Chow top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elvin-Chow&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
+  <img height="158" alt="Elvin-Chow GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Elvin-Chow&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
+  <img height="158" alt="Elvin-Chow top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elvin-Chow&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
 </p>
 
 <p align="center">
-  <img width="100%" alt="Elvin-Chow contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Elvin-Chow&theme=github-compact&hide_border=true&area=true&height=280" />
+  <img width="100%" alt="Elvin-Chow contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Elvin-Chow&theme=github-compact&hide_border=true&area=true&height=260" />
 </p>
